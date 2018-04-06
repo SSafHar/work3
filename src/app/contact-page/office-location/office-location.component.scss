@@ -1,0 +1,39 @@
+@import "../../../assets/styles/theme/dark";
+
+:host {
+  flex: 1;
+  display: flex;
+  position: relative;
+  height: auto;
+  padding: 20px;
+  background: map-get($app-background, card);
+}
+
+:host(.selected)::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 1px;
+  right: 0;
+  height: 5px;
+  background: map-get($app-background, hover);
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  margin-right: 50px;
+
+  @media (max-width: 560px) {
+    display: none;
+  }
+}
+
+.info {
+  display: block;
+
+  h4 {
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+}

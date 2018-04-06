@@ -1,0 +1,222 @@
+//.g-toast__head {
+//  height: 32px;
+//  padding: 0 15px;
+//  background: shade($gray);
+//  line-height: 2;
+//  color: $white;
+//}
+//
+//.g-toast__body {
+//  @include backdrop-blur();
+//
+//  display: flex;
+//  justify-content: center;
+//  align-items: flex-start;
+//  width: 100%;
+//  min-height: 88px;
+//  padding: 15px;
+//  background: rgba($white, 0.9);
+//
+//  .g-toastr__status {
+//    position: relative;
+//    display: inline-block;
+//    width: 60px;
+//    height: 60px;
+//    border-radius: 50%;
+//
+//    &:before {
+//      @extend %icon;
+//      font-size: 30px;
+//      width: 30px;
+//      height: 30px;
+//      top: 15px;
+//      left: 15px;
+//      color: $white;
+//    }
+//    @include when-inside('.toast-success') {
+//      background-color: $green;
+//
+//      &:before {
+//        content: map-get($icon_list, success);
+//      }
+//    }
+//    @include when-inside('.toast-error') {
+//      background-color: $red;
+//
+//      &:before {
+//        content: map-get($icon_list, error);
+//      }
+//    }
+//    @include when-inside('.toast-info') {
+//      background-color: $blue-light;
+//
+//      &:before {
+//        content: map-get($icon_list, info);
+//      }
+//    }
+//    @include when-inside('.toast-warning') {
+//      background-color: $yellow;
+//
+//      &:before {
+//        content: map-get($icon_list, warning);
+//      }
+//    }
+//  }
+//
+//  p {
+//    flex-grow: 1;
+//    flex-basis: 0;
+//    max-height: 100%;
+//    margin: auto 10px;
+//    overflow: hidden;
+//    word-wrap: break-word;
+//    color: $primary;
+//    font-size: 13px;
+//    font-family: Lato;
+//  }
+//
+//  span {
+//    padding: 13px 0;
+//    font-size: 15px;
+//    text-align: right;
+//    color: $primary;
+//
+//    small {
+//      font-size: 11px;
+//      opacity: 0.7;
+//    }
+//  }
+//}
+//
+//.toast-message {
+//  a {
+//    color: #FFFFFF;
+//
+//    &:hover {
+//      color: #CCCCCC;
+//      text-decoration: none;
+//    }
+//  }
+//
+//  label {
+//    color: #FFFFFF;
+//  }
+//}
+//
+//.toast-close-button {
+//  position: absolute;
+//  z-index: z-index(notificationf);
+//  right: 5px;
+//  top: 3px;
+//  font-size: 20px;
+//  font-weight: bold;
+//  color: #FFFFFF;
+//
+//  &:focus,
+//  &:hover {
+//    cursor: pointer;
+//    font-size: 20px;
+//  }
+//}
+//
+///*Additional properties for button version
+// iOS requires the button element instead of an anchor tag.
+// If you want the anchor version, it requires `href="#"`.*/
+//
+//button.toast-close-button {
+//  padding: 0;
+//  cursor: pointer;
+//  background: transparent;
+//  border: 0;
+//  -webkit-appearance: none;
+//}
+//
+//.toast-top-center {
+//  top: 0;
+//  right: 0;
+//  width: 100%;
+//}
+//
+//.toast-bottom-center {
+//  bottom: 0;
+//  right: 0;
+//  width: 100%;
+//}
+//
+//.toast-top-full-width {
+//  top: 0;
+//  right: 0;
+//  width: 100%;
+//}
+//
+//.toast-bottom-full-width {
+//  bottom: 0;
+//  right: 0;
+//  width: 100%;
+//}
+//
+//.toast-top-left {
+//  top: 72px;
+//  left: 12px;
+//}
+//
+//.toast-top-right {
+//  top: 72px;
+//  right: 12px;
+//}
+//
+//.toast-bottom-right {
+//  right: 12px;
+//  bottom: 12px;
+//}
+//
+//.toast-bottom-left {
+//  bottom: 12px;
+//  left: 12px;
+//}
+//
+//#toast-container {
+//  pointer-events: none;
+//  position: fixed;
+//  z-index: z-index(notification);
+//
+//  * {
+//    -moz-box-sizing: border-box;
+//    -webkit-box-sizing: border-box;
+//    box-sizing: border-box;
+//  }
+//
+//  > div {
+//    position: relative;
+//    width: 320px;
+//    min-height: 120px;
+//    margin: 0 0 10px;
+//    overflow: hidden;
+//  }
+//
+//  &.toast-bottom-center > div,
+//  &.toast-top-center > div {
+//    width: 300px;
+//    margin: auto;
+//  }
+//
+//  &.toast-bottom-full-width > div,
+//  &.toast-top-full-width > div {
+//    width: 96%;
+//    margin: auto;
+//  }
+//}
+//
+//.toast {
+//  @include shadow(0, 0, 1, 1, $gray, 0.2);
+//  pointer-events: auto;
+//}
+//
+//.toast-progress {
+//  position: absolute;
+//  left: 0;
+//  bottom: 0;
+//  height: 4px;
+//  background-color: #000000;
+//  opacity: 0.4;
+//}

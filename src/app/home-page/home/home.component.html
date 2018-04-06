@@ -1,0 +1,7 @@
+<div class="banner" *ngFor="let banner of banners; let odd = odd" [class.reverse]="odd">
+  <div class="info">
+    <h1>{{banner.header}}</h1>
+    <h3>{{banner.text}}</h3>
+  </div>
+  <img [src]="banner.image">
+</div>

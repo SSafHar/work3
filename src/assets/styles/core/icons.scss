@@ -1,0 +1,98 @@
+//
+@font-face {
+  font-family: "icons";
+  font-weight: normal;
+  font-style: normal;
+  // sass-lint:disable indentation
+  src: url("/assets/fonts/icon-fonts/icons.woff2") format("woff2"),
+    url("/assets/fonts/icon-fonts/icons.woff") format("woff"),
+    url("/assets/fonts/icon-fonts/icons.ttf") format("truetype");
+  // sass-lint:enable indentation
+}
+
+%icon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: "icons";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+  /* -moz-osx-font-smoothing: grayscale; */
+}
+
+@mixin generate-icons() {
+  .icon {
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+
+    &::before {
+      @extend %icon;
+    }
+  }
+
+  $icon-list: (
+    add: "\EA01",
+    arrow-down: "\EA02",
+    avatar-uploader: "\EA03",
+    background-uploader: "\EA04",
+    books: "\EA05",
+    brain: "\EA06",
+    bulb: "\EA07",
+    calendar: "\EA08",
+    class-avarage: "\EA09",
+    clock: "\EA0A",
+    close: "\EA0B",
+    completed: "\EA0C",
+    course: "\EA0D",
+    coursestore: "\EA0E",
+    down: "\EA0F",
+    download: "\EA10",
+    drive: "\EA11",
+    edit: "\EA12",
+    error: "\EA13",
+    expand: "\EA14",
+    facebook: "\EA15",
+    failed: "\EA16",
+    github: "\EA17",
+    github1: "\EA18",
+    grade: "\EA19",
+    home: "\EA1A",
+    info: "\EA1B",
+    left: "\EA1C",
+    linkedin: "\EA1D",
+    locked: "\EA1E",
+    logo: "\EA1F",
+    mailbox: "\EA20",
+    pending: "\EA21",
+    return: "\EA22",
+    right: "\EA23",
+    search: "\EA24",
+    settings: "\EA25",
+    skills: "\EA26",
+    success: "\EA27",
+    syllabus: "\EA28",
+    title: "\EA29",
+    twitter: "\EA2A",
+    unlocked: "\EA2B",
+    up: "\EA2C",
+    video: "\EA2D",
+    view: "\EA2E",
+    warning: "\EA2F",
+    weight: "\EA30",
+    );
+
+  @each $name, $glyph-code in $icon-list {
+    .icon-#{$name} {
+      &::before {
+        content: $glyph-code;
+      }
+    }
+  }
+}

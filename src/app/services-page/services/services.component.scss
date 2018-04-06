@@ -1,0 +1,29 @@
+:host {
+  flex: 1;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 70px 20px;
+  justify-content: space-around;
+  padding: 20px;
+  overflow: auto;
+
+   @media (max-width: 840px) {
+     grid-template-columns: auto;
+     padding: 20px 50px;
+   }
+
+  @media (max-width: 560px) {
+    grid-template-columns: auto;
+    padding: 20px 5px;
+  }
+}
+
+app-service-card {
+  transition: .1s;
+  will-change: transform;
+
+  &:hover {
+    transform: scale(.97);
+    z-index: 1;
+  }
+}

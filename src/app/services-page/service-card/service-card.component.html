@@ -1,0 +1,17 @@
+<mat-card (click)="openDialog()">
+  <mat-card-header>
+    <div mat-card-avatar appBgImage [urls]="service.backgroundimageUrl"></div>
+    <mat-card-title>{{service.title}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content class="details">
+    <div class="info">
+      <p>{{service.description}}</p>
+      <mat-chip-list>
+        <mat-chip *ngFor="let tag of service.tags" [color]="tag.color">{{tag.label}}</mat-chip>
+      </mat-chip-list>
+    </div>
+    <div class="info reverse">
+      <span class="price">Starting from {{service.price | currency:'USD':'true':'1.0'}}</span>
+    </div>
+  </mat-card-content>
+</mat-card>

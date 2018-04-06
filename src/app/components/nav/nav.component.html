@@ -1,0 +1,16 @@
+<mat-toolbar>
+  <app-logo type="image"></app-logo>
+  <span class="spacer"></span>
+  <i class="icon icon-books"></i>
+  <nav mat-tab-nav-bar>
+    <a mat-tab-link
+       *ngFor="let menuItem of menuItems"
+       class="item"
+       [routerLink]="menuItem.link"
+       routerLinkActive
+       #rla="routerLinkActive"
+       [active]="rla.isActive">
+      <h5>{{menuItem.label}}</h5>
+    </a>
+  </nav>
+</mat-toolbar>

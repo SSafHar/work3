@@ -1,0 +1,43 @@
+:host {
+  display: flex;
+  flex: 1;
+
+  @media (max-width: 560px) {
+    flex-direction: column;
+  }
+}
+
+.info {
+  $padding: 25px;
+
+  position: relative;
+  display: block;
+  width: 25%;
+  padding: $padding;
+  border-right: white 1px solid;
+  text-align: center;
+
+  @media (max-width: 560px) {
+    width: auto;
+    border: none;
+  }
+
+  img {
+    height: 70px;
+    width: 70px;
+    margin: 10px 0;
+  }
+
+  h4 {
+    margin: 10px 0;
+  }
+
+  .actions {
+    position: absolute;
+    bottom: $padding;
+    left: $padding;
+    right: $padding;
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,55 @@
+[{
+    "name": "Liza Voskanyan",
+    "imageUrl": "../../assets/images/team-member.png",
+    "position": "Full stack - JS Developer",
+    "experience": "2 years",
+    "location": "Yerevan, Armenia",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque",
+    "nickname": "the_best"
+  },
+  {
+    "name": "Sona Khachatryan",
+    "imageUrl": "../../assets/images/team-member.png",
+    "position": "Full stack - PHP Developer",
+    "experience": "3 years",
+    "location": "Yerevan, Armenia",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque",
+    "nickname": "the_best"
+  },
+  {
+    "name": "Alex Aslanyan",
+    "imageUrl": "../../assets/images/team-member.png",
+    "position": "UI/UX Designer",
+    "experience": "3 years",
+    "location": "Los Angeles, USA",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque",
+    "nickname": "the_best"
+  },
+  {
+    "name": "Artur Aslanyan",
+    "imageUrl": "../../assets/images/team-member.png",
+    "position": "CEO",
+    "experience": "4 years",
+    "location": "Yerevan, Armenia",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque",
+    "nickname": "Dedalus"
+  },
+  {
+    "name": "Hakob Poghosyan",
+    "imageUrl": "../../assets/images/team-member.png",
+    "position": "CTO",
+    "experience": "5 years",
+    "location": "Yerevan, Armenia",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque",
+    "nickname": "Hakobpogh"
+  },
+  {
+    "name": "Ruben Mirzoyan",
+    "imageUrl": "../../assets/images/team-member.png",
+    "position": "PM",
+    "experience": "1 year",
+    "location": "Yerevan, Armenia",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque",
+    "nickname": "Chainsaw"
+  }
+]

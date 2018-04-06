@@ -1,0 +1,133 @@
+[{
+    "title": "Web App Development",
+    "imageUrl": "../../assets/images/webapp.png",
+    "backgroundimageUrl": "../../assets/images/webapp.png",
+    "theme": "#ff3f46",
+    "description": "We use the most advanced web technologies available at our hands, in order to create professional, progressive and user-friendly web applications. Our team will design, code and set up a scalable and modern web application for you, guiding and consulting on every step of your product development until the product is successfuly launched.",
+    "price": 3000,
+    "tags": [{
+      "label": "Node.js",
+      "color": "primary"
+    }, {
+      "label": "Angular 5",
+      "color": "accent"
+    }, {
+      "label": "PostgreSQL",
+      "color": "primary"
+    }, {
+      "label": "Bootstrap 4",
+      "color": "primary"
+    }, {
+      "label": "Angular Material",
+      "color": "primary"
+    }]
+  },
+  {
+    "title": "Mobile App Development",
+    "imageUrl": "../../assets/images/ionic.png",
+    "backgroundimageUrl": "../../assets/images/ionic.png",
+    "theme": "#7dff00",
+    "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "price": 1200,
+    "tags": [{
+      "label": "Ionic 2",
+      "color": "primary"
+    }, {
+      "label": "Node.js",
+      "color": "primary"
+    }, {
+      "label": "Angular 5",
+      "color": "accent"
+    }, {
+      "label": "PostgreSQL",
+      "color": "primary"
+    }, {
+      "label": "Bootstrap 4",
+      "color": "primary"
+    }, {
+      "label": "Angular Material",
+      "color": "primary"
+    }]
+  },
+  {
+    "title": "Desktop App Development",
+    "imageUrl": "../../assets/images/electron.png",
+    "backgroundimageUrl": "../../assets/images/electron.png",
+    "theme": "#4d9de0",
+    "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "price": 1200,
+    "tags": [{
+      "label": "Electron",
+      "color": "primary"
+    }, {
+      "label": "Node.js",
+      "color": "primary"
+    }, {
+      "label": "Angular 5",
+      "color": "accent"
+    }, {
+      "label": "PostgreSQL",
+      "color": "primary"
+    }, {
+      "label": "Bootstrap 4",
+      "color": "primary"
+    }, {
+      "label": "Angular Material",
+      "color": "primary"
+    }]
+  },
+  {
+    "title": "UI/UX Design",
+    "imageUrl": "../../assets/images/ui.png",
+    "backgroundimageUrl": "../../assets/images/ui.png",
+    "theme": "#ff3f46",
+    "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "price": 1200,
+    "tags": [{
+      "label": "Material Design",
+      "color": "primary"
+    }, {
+      "label": "Atomic Design",
+      "color": "accent"
+    }, {
+      "label": "Apple Paper Theory",
+      "color": "primary"
+    }]
+  },
+  {
+    "title": "Corporate Sites",
+    "imageUrl": "../../assets/images/corporate.png",
+    "backgroundimageUrl": "../../assets/images/corporate.png",
+    "theme": "#7dff00",
+    "description": "Lorem",
+    "price": 1200,
+    "tags": [{
+      "label": "tag0",
+      "color": "primary"
+    }, {
+      "label": "tag1",
+      "color": "accent"
+    }, {
+      "label": "tag2",
+      "color": "primary"
+    }]
+  },
+  {
+    "title": "Landing Pages",
+    "imageUrl": "../../assets/images/landing.png",
+    "backgroundimageUrl": "../../assets/images/landing.png",
+    "theme": "#4d9de0",
+    "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "price": 1200,
+    "tags": [{
+      "label": "Angular Universal",
+      "color": "primary"
+    }, {
+      "label": "tag1",
+      "color": "accent"
+    }, {
+      "label": "tag2",
+      "color": "primary"
+    }]
+  }
+]

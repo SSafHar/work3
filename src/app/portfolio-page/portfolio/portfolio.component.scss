@@ -1,0 +1,21 @@
+:host {
+  flex: 1;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 40px 20px;
+  justify-content: space-around;
+  padding: 30px;
+  overflow: auto;
+
+  @media (max-width: 1060px) {
+    grid-template-columns: auto auto auto;
+  }
+
+  @media (max-width: 967px) {
+    grid-template-columns: auto auto;
+  }
+
+  @media (max-width: 667px) {
+    grid-template-columns: auto;
+  }
+}

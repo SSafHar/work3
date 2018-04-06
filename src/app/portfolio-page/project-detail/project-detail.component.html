@@ -1,0 +1,16 @@
+<ng-container *ngIf="project">
+  <div class="info">
+    <img class="logo" [src]="project.logoUrl" alt="logo">
+    <h3>{{project.organization_name}}</h3>
+    <h4>{{project.info}}</h4>
+    <h4><a mat-button color="accent" [routerLink]="project.url">{{project.url}}</a></h4>
+    <div class="used_services">
+      <img *ngFor="let service of project.usedServicesLogoUrls" [src]="service.url" alt="usedService">
+    </div>
+    <div class="actions">
+      <button mat-raised-button color="primary" [routerLink]="['/portfolio', project.previousId]">previous</button>
+      <button mat-raised-button color="primary" [routerLink]="['/portfolio', project.nextId]">next</button>
+    </div>
+  </div>
+  <app-image-slider class="image-slider" [images]="project.images"></app-image-slider>
+</ng-container>

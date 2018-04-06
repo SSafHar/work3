@@ -1,0 +1,14 @@
+@import "../../../assets/styles/theme/dark";
+
+:host {
+  display: block;
+}
+
+.desc, .resp, .salary, .type {
+  display: block;
+  margin: 15px 0;
+}
+
+h4 {
+  font-weight: 400;
+}

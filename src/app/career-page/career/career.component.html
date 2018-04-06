@@ -1,0 +1,6 @@
+<div class="job-list">
+  <app-job-item *ngFor="let job of jobs" [job]="job" [routerLink]="['/career', job.id]"></app-job-item>
+</div>
+<div class="job-detail">
+  <router-outlet></router-outlet>
+</div>

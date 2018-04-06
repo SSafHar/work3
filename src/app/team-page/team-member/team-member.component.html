@@ -1,0 +1,14 @@
+<mat-card>
+  <img mat-card-image [src]="teamMember.imageUrl" alt="member">
+  <mat-card-content>
+    <h4 class="name">{{teamMember.name}}</h4>
+    <p class="position">{{teamMember.position}} - {{teamMember.experience}}</p>
+    <h6 class="location">{{teamMember.location}}</h6>
+    <p class="description">{{teamMember.description}}</p>
+  </mat-card-content>
+  <mat-card-footer>
+    <p class="nickname">[{{teamMember.nickname}}]</p>
+    <i class="icon icon-github" routerLink="/"></i>
+    <i class="icon icon-linkedin" routerLink="/"></i>
+  </mat-card-footer>
+</mat-card>

@@ -1,0 +1,23 @@
+@import "~@angular/material/theming";
+@import "assets/styles/theme/dark";
+@import "assets/styles/core/index";
+@import "assets/styles/overrides/material-overrides";
+
+@include app-core();
+@include mat-core();
+@include material-overrides();
+
+$app-theme: mat-dark-theme($app-primary, $app-accent, $app-warn);
+
+@include angular-material-theme($app-theme);
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  background-color: map-get($app-background, background);
+  color: map-get($app-foreground, text);
+}

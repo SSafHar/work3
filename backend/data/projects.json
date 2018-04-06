@@ -1,0 +1,117 @@
+[{
+    "id": "02",
+    "organization_name": "InstuGuide",
+    "images": [{
+        "url": "https://cdn.newsday.com/polopoly_fs/1.3418683.1332542443!/httpImage/image.JPG_gen/derivatives/display_600/image.JPG"
+      },
+      {
+        "url": "https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg"
+      },
+      {
+        "url": "https://wallpaperbrowse.com/media/images/4052451-images.jpg"
+      },
+      {
+        "url": "https://pre00.deviantart.net/6ecb/th/pre/f/2013/086/3/d/facebook_cover_1_by_alphacid-d5zfrww.jpg"
+      },
+      {
+        "url": "https://pre00.deviantart.net/9f7f/th/pre/f/2013/086/2/5/facebook_cover_crow_by_alphacid-d5zfsw1.jpg"
+      }
+    ],
+    "logoUrl": "../assets/images/odeon.png",
+    "info": "Et harum quidem rerum facilis est et expedita distinctio. 1",
+    "location": "Yerevan, 0010 Armenia",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "url": "http://odeon.fenix.codes",
+    "usedServicesLogoUrls": [{
+        "url": "../assets/images/angular.png"
+      },
+      {
+        "url": "../assets/images/nodejs.png"
+      },
+      {
+        "url": "../assets/images/php.png"
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "organization_name": "Wain App",
+    "images": [{
+        "url": "https://wallpaperbrowse.com/media/images/image-slider-2.jpg"
+      },
+      {
+        "url": "https://wallpaperbrowse.com/media/images/Amazing_Bike_Stunt_Images_YMMeTtq.jpg"
+      },
+      {
+        "url": "https://wallpaperbrowse.com/media/images/6137331-images.jpg"
+      }
+    ],
+    "logoUrl": "../../assets/images/vanardi.png",
+    "info": "Et harum quidem rerum facilis est et expedita distinctio.2",
+    "location": "Yerevan, 0010 Armenia",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "url": "http://vanardi.com",
+    "usedServicesLogoUrls": [{
+        "url": "../assets/images/angular.png"
+      },
+      {
+        "url": "../assets/images/nodejs.png"
+      },
+      {
+        "url": "../assets/images/php.png"
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "organization_name": "Odeon",
+    "images": [{
+        "url": "https://wallpaperbrowse.com/media/images/beautiful-sunset-images-196063.jpg"
+      },
+      {
+        "url": "https://wallpaperbrowse.com/media/images/Hokusai_promo_crop.jpg"
+      },
+      {
+        "url": "https://static.pexels.com/photos/264109/pexels-photo-264109.jpeg"
+      }
+    ],
+    "logoUrl": "../../assets/images/wainapp.png",
+    "info": "Et harum quidem rerum facilis est et expedita distinctio.3",
+    "location": "Yerevan, 0010 Armenia",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "url": "http://wainapp.ru",
+    "usedServicesLogoUrls": [{
+        "url": "../assets/images/angular.png"
+      },
+      {
+        "url": "../assets/images/nodejs.png"
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "organization_name": "Van Ardi",
+    "images": [{
+        "url": "https://wallpaperbrowse.com/media/images/beautiful-sunset-images-196063.jpg"
+      },
+      {
+        "url": "https://wallpaperbrowse.com/media/images/Hokusai_promo_crop.jpg"
+      },
+      {
+        "url": "https://static.pexels.com/photos/264109/pexels-photo-264109.jpeg"
+      }
+    ],
+    "logoUrl": "../../assets/images/wainapp.png",
+    "info": "Et harum quidem rerum facilis est et expedita distinctio.3",
+    "location": "Yerevan, 0010 Armenia",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "url": "http://wainapp.ru",
+    "usedServicesLogoUrls": [{
+        "url": "../assets/images/angular.png"
+      },
+      {
+        "url": "../assets/images/nodejs.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+<span *ngIf="type === 'text'">{{logoText}}</span>
+
+<a mat-button color="accent" *ngIf="type === 'link'" routerLink="/">{{logoText}}</a>
+
+<!-- todo: image should have size directive -->
+<a color="accent" *ngIf="type === 'image'" routerLink="/">
+  <img [src]="logoImageUrl" alt="logo">
+</a>
+
+<div class="mixed" *ngIf="type === 'mixed'" routerLink="/">
+  <img [src]="logoImageUrl" alt="logo">
+  <span>{{logoText}}</span>
+</div>

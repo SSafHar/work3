@@ -1,0 +1,8 @@
+<app-map *ngIf="selectedLocation" [coordinates]="selectedLocation.coordinates"></app-map>
+<div class="location-list">
+  <app-office-location *ngFor="let location of locations"
+                       [location]="location"
+                       [class.selected]="location === selectedLocation"
+                       (click)="selectLocation(location)">
+  </app-office-location>
+</div>

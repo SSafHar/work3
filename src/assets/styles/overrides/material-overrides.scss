@@ -1,0 +1,17 @@
+@mixin material-overrides() {
+
+  .mat-input-flex {
+    &.mat-form-field-flex {
+      padding: 4px;
+      background: rgba(255, 255, 255, .1);
+      border-radius: 4px;
+    }
+  }
+
+  .mat-tab-nav-bar {
+    border-bottom: 0 !important;
+    .mat-tab-link {
+      height: 72px;
+    }
+  }
+}

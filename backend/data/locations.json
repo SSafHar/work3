@@ -1,0 +1,14 @@
+[{
+  "organization_name": "Cerberus HQ",
+  "country": "Armenia",
+  "imageUrl": "../../assets/images/armenia-map.png",
+  "city": "Yerevan",
+  "index": "0010",
+  "street": "Mher Mkrtchyan St",
+  "building": "5a",
+  "phone": "+374 (93) 050 489",
+  "coordinates": {
+    "lat": 40.1749657,
+    "lng": 44.512143
+  }
+}]

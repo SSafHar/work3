@@ -1,0 +1,13 @@
+<ng-container *ngIf="job">
+  <h3>{{job.title}}</h3>
+  <h4 class="desc">Description:</h4><h5>{{job.description}}</h5>
+  <h4 class="resp">Responsibilities:</h4><h5>{{job.responsibilities}}</h5>
+  <h4 class="salary">Salary:</h4><h5>{{job.salary}}</h5>
+  <h4 class="type">Type:</h4><h5>{{job.type}}</h5>
+
+  <div class="btn-container" *ngIf="!applyFormOpened">
+    <button mat-button color="accent" (click)="openApplyForm()">Apply</button>
+  </div>
+
+  <app-apply-form [job]="job" *ngIf="applyFormOpened"></app-apply-form>
+</ng-container>

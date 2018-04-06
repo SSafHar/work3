@@ -1,0 +1,31 @@
+[{
+    "image": "../../../assets/images/webapp.png",
+    "header": "Web Applications",
+    "text": "We use the most advanced web technologies available at our hands, in order to create professional, progressive and user-friendly web applications."
+  },
+  {
+    "image": "../../../assets/images/ionic.png",
+    "header": "Mobile Applications",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "image": "../../../assets/images/electron.png",
+    "header": "Desktop Applications",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "image": "../../../assets/images/ui.png",
+    "header": "UI/UX Design of Applications",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "image": "../../../assets/images/corporate.png",
+    "header": "Corporate Sites",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "image": "../../../assets/images/landing.png",
+    "header": "Landing Pages",
+    "text": "Lorem ipsum dolor sit amet."
+  }
+]

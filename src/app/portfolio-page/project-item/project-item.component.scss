@@ -1,0 +1,53 @@
+@import "../../../assets/styles/theme/dark";
+
+:host {
+  max-width: 284px;
+  width: 100%;
+  height: 384px;
+}
+
+mat-card {
+  position: relative;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+mat-card-actions {
+  bottom: 50px;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+// ?
+a {
+  color: map-get($app-primary, default);
+}
+
+//.description {
+//  // should be 768px
+//  @media(max-width: 850px) {
+//    display: none;
+//  }
+//}

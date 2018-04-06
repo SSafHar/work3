@@ -1,0 +1,39 @@
+:host {
+  display: flex;
+  height: 264px;
+}
+
+mat-card {
+  height: 100%;
+}
+
+mat-card-content.details {
+  display: flex;
+  height: 80%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  padding-top: 25px;
+
+  &.reverse {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    .price {
+      margin: 10px;
+    }
+  }
+}
+
+p {
+  margin: 16px 0;
+}
+
+mat-card-actions {
+  margin: 0;
+  padding: 0;
+}

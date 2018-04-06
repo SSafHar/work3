@@ -1,0 +1,52 @@
+$nav-height: 72px;
+
+:host {
+  display: flex;
+  justify-content: space-between;
+  height: $nav-height;
+}
+
+mat-toolbar {
+  display: flex;
+  height: $nav-height;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.icon {
+  display: none;
+
+  @media (max-width: 560px) {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.mat-tab-link {
+  min-width: 0;
+  width: 100px;
+  text-align: center;
+  outline: none;
+
+  @media (max-width: 560px) {
+    width: 130px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 0 10px;
+  }
+}
+
+@media (max-width: 560px) {
+  nav {
+    position: absolute;
+    top: 48px;
+    right: 0;
+    z-index: 1;
+    background: #212121;
+  }
+}

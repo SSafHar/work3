@@ -1,0 +1,25 @@
+[{
+  "id": "01",
+  "title": "Junior JS Developer",
+  "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+  "responsibilities": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+  "salary": "150,000 - 200,000 AMD",
+  "type": "Full Time",
+  "location": "Yerevan"
+}, {
+  "id": "02",
+  "title": "JS intern",
+  "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+  "responsibilities": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+  "salary": "After completing internship starting salary 100,000 - 150,000 AMD depending on your qualification",
+  "type": "Full Time",
+  "location": "Yerevan"
+}, {
+  "id": "03",
+  "title": "Senior JS Developr",
+  "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+  "responsibilities": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+  "salary": "350,000 - 400,000 AMD",
+  "type": "Full Time",
+  "location": "Yerevan"
+}]

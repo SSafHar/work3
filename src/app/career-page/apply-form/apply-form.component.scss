@@ -1,0 +1,28 @@
+:host {
+  display: block;
+  text-align: center;
+  width: 90%;
+  margin: 40px auto;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+
+  mat-form-field {
+    width: 100%;
+  }
+
+  .btn-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  input[type=file] {
+    display: block;
+    margin: 8px;
+  }
+}
+

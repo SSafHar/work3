@@ -1,0 +1,30 @@
+:host {
+  display: inline-block;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.mixed {
+  img, span {
+    display: block;
+  }
+}
+
+$sizes: (
+  small: 72px,
+  medium: 120px,
+  large: 400px,
+);
+
+@each $size, $value in $sizes {
+  :host([size=#{$size}]) {
+    img {
+      height: $value;
+      width: $value;
+    }
+
+    span, a {
+      font-size: $value / 3;
+    }
+  }
+}
